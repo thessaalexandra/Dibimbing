@@ -1,0 +1,239 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureGlow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html"><img src="./images/logo (1).jpeg" alt=""></a></div>
+
+                <ul class="links">
+                    <li><a href="#" id="first">Halaman Utama</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#product">Produk</a></li>
+                    <li><a href="#contact">Hubungi Kami</a></li>
+                    <li><a href="#review">Review</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+
+        </nav>
+    </div>
+
+    <!--Halaman Utama-->
+    <div class="home">
+        <div class="main-text">
+            <h1>Tentukan Perawatan Kulit <br>Terbaik untuk Anda</h1>
+            <button id="btn">Tampilkan Lebih Banyak</button>
+        </div>
+    </div>
+
+    <!--Tentang Kami-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/skincare_2.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Tentang Kami</h3>
+            <p>Kami adalah platform e-commerce yang menghadirkan beragam merek perawatan kulit terkemuka dalam satu
+                tempat yang nyaman untuk memenuhi kebutuhan perawatan kulit Anda. Di PureGlow, kami memahami
+                bahwa setiap individu memiliki kebutuhan unik dalam perawatan kulit mereka, dan itulah mengapa kami
+                berkomitmen untuk menyediakan akses mudah ke berbagai merek dan produk terbaik.</p>
+
+            <button id="about-btn">Baca Lebih Lanjut...</button>
+        </div>
+
+    </section>
+
+    <!--Produk-->
+    <section class="product" id="product">
+        <div class="main-txt">
+            <h3>Produk</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/glow_serum_1.jpeg" alt="">
+                <div class="card-body">
+                    <button>Serum</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/facial_wash.jpeg" alt="">
+                <div class="card-body">
+                    <button>Facial Wash</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/toner.jpeg" alt="">
+                <div class="card-body">
+                    <button>Toner</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/face_mask.jpeg" alt="">
+                <div class="card-body">
+                    <button>Face Mask</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/acne_spot_treatment.jpeg" alt="">
+                <div class="card-body">
+                    <button>Acne Spot</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/suncreen.jpeg" alt="">
+                <div class="card-body">
+                    <button>Suncreen</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/moisturizer.jpeg" alt="">
+                <div class="card-body">
+                    <button>Moisturizer</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/eye_cream.jpeg" alt="">
+                <div class="card-body">
+                    <button>Eye Cream</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Hubungi Kami-->
+    <section class="contact" id="contact">
+        <div class="content-text">
+            <h2>Hubungi Kami</h2>
+            <p>Tentukan Perawatan Kulit Terbaik untuk Anda. Dapatkan produk perawatan kulit terkemuka untuk semua
+                kebutuhan Anda! </p>
+            <p>Hubungi kami untuk informasi lebih lanjut.</p>
+            <div class="list">
+                <li><a href="#">0812-2198-0876</a></li>
+                <li><a href="#">thessalonikaalexandraa@gmail.com</a></li>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="#">
+                <input type="name" placeholder="Masukkan Nama" required>
+                <input type="number" placeholder="Masukkan No Telepon" required>
+                <input type="email" placeholder="Masukkan Email" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="Masukkan Pesan"></textarea>
+                <input type="submit" value="Kirim" class="submit" required>
+
+            </form>
+        </div>
+
+    </section>
+
+    <!--Review Pelanggan-->
+    <section class="review" id="review">
+        <div class="main-txt">
+            <h3>RevieW <span>Pelanggan</span></h3>
+        </div>
+
+        <div class="review-content">
+            <div class="box">
+                <div class="img">
+                    <img src="./images/pic-1.png" alt="">
+                </div>
+                <h3>Tom Holland</h3>
+                <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Rekomendasi banget buat yang lagi cari tempat belanja skincare yang aman, terpercaya, dan murah
+                    meriah. Gak bakal nyesel
+                    deh belanja di PureGlow skincare ini. Aku pasti bakal balik lagi buat beli produk lainnya!</p>
+
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/pic-2.png" alt="">
+                </div>
+                <h3>Addison Rae</h3>
+                <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Aku tuh bukan tipe orang yang suka ribet-ribet nyari skincare. Makanya, pas temen aku rekomendasiin
+                    PureGlow, aku langsung cek. Dan beneran deh, lengkap banget pilihannya! Dari mulai facial wash,
+                    toner, sampe masker, semuanya ada.
+                    Udah gitu, harganya terjangkau, jadi gak perlu khawatir kantong jebol. Aku suka banget!</p>
+
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/pic-3.png" alt="">
+                </div>
+                <h3>Chase Hudson</h3>
+                <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Dulu sempet males-malesan pakai skincare karena ribet dan mahal. Tapi setelah cobain PureGlow,
+                    beneran deh, rasanya puas banget! Proses belanjaannya gampang, tinggal klik sana klik sini,
+                    langsung bisa checkout. Ditambah lagi, pilihannya lengkap banget, dari merek lokal sampe
+                    internasional ada semua.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./images/logo (2).jpeg" alt="">
+            </div>
+
+            <p>Jelajahi keberadaan kami di berbagai platform media sosial di bawah ini!</p>
+            <div class="social-links">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <hr>
+    </footer>
+    <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+</body>
+
+</html>
